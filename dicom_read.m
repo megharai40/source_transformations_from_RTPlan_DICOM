@@ -1,5 +1,7 @@
 %A matlab program to read an RT DICOM plan and then print out the
 %transformations of source for a brachytherapy plan in SagiPlan
+clc
+clear 
 
 rt_plan = dicominfo("path/to/rtplan/dicom");
 
